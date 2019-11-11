@@ -1,0 +1,44 @@
+.card-atas {
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap; 
+    .isi-card-atas {
+        background-color: #ffffff;
+        width: 247px;
+        margin-right: 25px;
+        padding: 15px 22px 7px;
+        box-shadow: 2px 2px 50px #f3f7f8;
+        margin-bottom: 17px;
+        transition: 0.4s;
+        &:hover {
+            background: #eee;
+            transform: translateY(-9px);
+            cursor: pointer;
+        }
+        p {
+            font-size: 12.5px;
+            color: #333d4b;
+        }
+        .titik {
+            float: right;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px;
+            color: #dde3e7;
+            cursor: pointer;
+            margin-top: -7px;
+        }
+        .card-tanggal {
+            color: #adb1b5;
+            span {
+                font-size: 25px;
+                margin-right: 5px;
+            }
+            .biru {
+                color: #4da1ff;
+            }
+            .orange {
+                color: #ff6d4a;
+            }
+        }   
+    }         
+}

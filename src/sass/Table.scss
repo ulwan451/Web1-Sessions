@@ -1,0 +1,121 @@
+.table {
+    .list-user {
+        background-color: white;
+        width: 100%;
+        border-radius: 7px;
+        box-shadow: 2px 2px 50px #f3f7f8;
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        flex: 1;
+        flex-wrap: wrap;
+        animation: table 1s ease-in;
+        @keyframes table {
+            0%{
+              margin-top: -80px;
+              opacity: 0;
+            }
+            100%{
+              opacity: 1;
+              margin-top: 0;
+            }
+          }
+        
+        &:hover {
+            background: #eee;
+            cursor: pointer;
+            transform: translateX(-12px);
+        }
+   
+    }
+    .data-user {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        margin: 0 30px;
+        img {
+            height: 60px;
+            width: 60px;
+            border-radius: 33px;
+        }
+        .nama {
+            display: flex;
+            flex: 1;
+            margin-left: 20px;
+            margin-top: 0px;
+            flex-wrap: wrap;
+            .email {
+                margin-top: -14px;
+            }
+            .pekerjaan {
+                margin-top: 2px;
+                margin-left: 100px;
+                font-size: 13px;
+                color: #838990;
+               @media (max-width: 800px) {
+                   width: 100px;
+                   margin-left: -0px;
+               }
+            }
+            p {
+                font-size: 13px;
+                color: #838990;
+            }
+            h4 {
+                font-weight: 500;
+                color: #323c47;
+                font-size: 15px;
+                margin-top: 0;
+            }
+        }
+    }
+    .aktifitas {
+        flex: 1;
+        display: flex;
+        .invites-pending {
+            padding: 10px;
+            display: flex;
+            flex: 1;
+            div {
+                padding: 10px;
+                display: flex;
+                flex: 1;
+            }
+            .invites {
+                margin-top: -15px;
+                h4 {
+                    color: #4da1ff;
+                    margin-left: 10px;
+                    margin-top: 16px;
+                }
+            }
+            .pending {
+                margin-top: -15px;
+                h4 {
+                    color: #ff6d4a;
+                    margin-left: 5px;
+                    margin-top: 18px;
+                }
+                span {
+                    margin-top: -23px;
+                    margin-left: 15px;
+                    color: #ff6d4a;
+                    font-size: 60px;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+            }
+            h5 {
+                color: #36404b;
+                font-weight: 400;
+            }
+            h4 {
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+    }
+    .chart {
+        display: none;
+    }    
+}
+

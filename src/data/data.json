@@ -1,0 +1,110 @@
+{
+  "DataCard": [
+    {
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShnmtzSnbai5wfmpW2h3gmW6FKrUDgMepu8nmoiwv9RSPntr7O",
+      "nama": "Samuel Spencer",
+      "email": "sasp@egament.com",
+      "pekerjaan": "Creative Director",
+      "invites": "03",
+      "pending": "02",
+      "warna": "#31baff",
+      "grafik": [
+        { "name": "Page A", "value": 1 },
+        { "name": "Page B", "value": 2 },
+        { "name": "Page C", "value": 5 },
+        { "name": "Page D", "value": 1 },
+        { "name": "Page E", "value": 5 },
+        { "name": "Page F", "value": 4 },
+        { "name": "Page G", "value": 3 },
+        { "name": "Page H", "value": 5 },
+        { "name": "Page I", "value": 1 }
+      ]
+    },
+    {
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_S9DUg_S9CHf-DxgcNbxYzZmibzud95wxTQslnreREOxA1ch1",
+      "nama": "Kit Laframboise",
+      "email": "kilap@egament.com",
+      "pekerjaan": "Data Analysit",
+      "invites": "07",
+      "pending": "00",
+      "warna": "#989898",
+      "grafik": [
+        { "name": "Page A", "value": 1 },
+        { "name": "Page B", "value": 1 },
+        { "name": "Page C", "value": 3 },
+        { "name": "Page D", "value": 2 },
+        { "name": "Page E", "value": 3 },
+        { "name": "Page F", "value": 1 },
+        { "name": "Page G", "value": 4 },
+        { "name": "Page H", "value": 1 },
+        { "name": "Page I", "value": 1 }
+      ]
+    },
+    {
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQs_Uxx0GsaOyWTPddb0UBExE_TmdS-RodTSqwhm00v584esDWA",
+      "nama": "Abagael Enno",
+      "email":  "anhu@egament.com",
+      "pekerjaan":  "Product Manager",
+      "invites": "13",
+      "pending": "05",
+      "warna": "#fc577a",
+      "grafik": [
+        { "name": "Page A", "value": 1 },
+        { "name": "Page B", "value": 1 },
+        { "name": "Page C", "value": 5 },
+        { "name": "Page D", "value": 1 },
+        { "name": "Page E", "value": 3 },
+        { "name": "Page F", "value": 1 },
+        { "name": "Page G", "value": 1 },
+        { "name": "Page H", "value": 1 },
+        { "name": "Page I", "value": 5 }
+      ]
+    }
+  ],
+  "DataPesan": [
+    {
+      "style": "coret",
+      "jam": "9:45",
+      "pesan": "Reply to Debie Wihelm"
+    },
+    {
+      "style": "aktif",
+      "jam": "9:59",
+      "pesan": "---New Invination from Julie"
+    },
+    {
+      "jam": "10:30",
+      "pesan": "Wireframes with Josh"
+    },
+    {
+      "jam": "12:45",
+      "pesan": "Follow up on Wireframes and Design"
+    }
+  ],
+  "DataEvent": [
+    {
+      "judul": "Inspiration Gathering",
+      "hari": "Monday Aug 20, 2018",
+      "jam": "11:00 AM - 11:30 AM",
+      "alamat": "Store Kanggurumontain 22, 8811 K Bentangmerd Denmark",
+      "jumlah": "10",
+      "jenis": "Attachement"
+    },
+    {
+      "judul": "Sketching",
+      "hari": "Tuesday Aug 21, 2018",
+      "jam": "10:00 AM - 12:00 AM",
+      "alamat": "Store Bentangmerd, Denmark",
+      "jumlah": "11",
+      "jenis": "Attachement"
+    },
+    {
+      "judul": "Hikoot app Wireframes",
+      "hari": "Tuesday Aug 21, 2018",
+      "jam": "13:00 AM - 15:00 AM",
+      "alamat": "Kanggurumontain Bentangmerd-Denmark",
+      "jumlah": "1",
+      "jenis": "Attachement"
+    }
+  ]
+}

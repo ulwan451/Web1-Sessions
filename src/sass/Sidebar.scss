@@ -1,0 +1,115 @@
+.sidebar {
+    border: 1px solid #e7e9ea;
+    position: fixed;
+    height: 100%;
+    width: 88px;
+    left: 0;
+    top: 0;
+    background-color: #fafbfc;
+    z-index: 15;
+    text-align: center;
+    a {
+        text-decoration: none;
+        display: block;
+    }
+    .logo {
+        width: 56px;
+        height: 105px;
+        margin-top: 5px;
+    }
+    .icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .satu {
+            transition: 0.1s;
+        }
+         .dua {
+            position: relative;
+            top: -40px;
+            transition: 0.1s;
+         }
+         .tiga {
+            position: relative;
+            top: -65px;
+         }
+         .empat {
+            position: relative;
+            top: -80px;
+         }
+         .lima {
+            position: relative;
+            top: -90px;
+         }
+         .enam {
+            position: relative;
+            top: -110px;
+         }
+         %border-aktif {
+            content:"";
+            position: absolute;
+            background-color: #4192ec;
+            border-top-right-radius: 7px;
+            border-bottom-right-radius: 7px;
+            height: 40px;
+            width: 7px;
+            box-shadow: 3px 0px 5px #c2e7ef;
+         }
+
+         .one{
+            &::before {
+                @extend %border-aktif;
+                margin-top: 15px;
+                margin-left: -20px;
+            }
+          }
+
+          .three{
+            &::before {
+                @extend %border-aktif;
+                width: 9px;
+                margin-top: -40px;
+                margin-left: -20px;
+            }
+          }
+
+         .four{
+            &::before {
+                @extend %border-aktif;
+                margin-top: -63px;
+                margin-left: -20px;
+            }
+          }
+
+         .five{
+            &::before {
+                @extend %border-aktif;
+                margin-top: -65px;
+                margin-left: -20px;
+            }
+          }
+
+         .six{
+            &::before {
+                @extend %border-aktif;
+                margin-top: -85px;
+                margin-left: -20px;
+            }
+          }
+        .two{
+            &::before {
+                @extend %border-aktif;
+                margin-top: -10px;
+                margin-left: -20px;
+            }
+        }
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+      .nav-aktif {
+        &::before  {
+            display: none;
+        }
+      }
+  }
